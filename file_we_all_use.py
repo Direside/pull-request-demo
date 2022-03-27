@@ -16,3 +16,7 @@ def index():
 def signup():
     """Signup Page"""
     return 'Please create an account here.'
+
+@app.route('/signout')
+def signout():
+    return 'You are now logged out'

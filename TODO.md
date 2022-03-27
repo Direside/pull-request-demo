@@ -3,5 +3,5 @@ TODO List:
 - Have cake
 - Bake cake
 - Carrot
--Decorate
--Wash plate 
+- Decorate
+- Wash plate 

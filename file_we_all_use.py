@@ -6,16 +6,13 @@ from flask import Flask
 
 app = Flask(__name__)
 
-"""
-Main method for app
-"""
+
 @app.route('/')
 def index():
+    """Main method for app"""
     return 'Hello World!'
 
-"""
-Signup Page
-"""
 @app.route('/signup')
 def signup():
+    """Signup Page"""
     return 'Please create an account here.'
